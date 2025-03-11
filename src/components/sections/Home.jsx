@@ -1,11 +1,12 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import mainImage from "../../images/main_image.jpg";
 
 export const Home = () => {
     return <section id="home" className="min-h-screen flex items-center justify-center relative">
         <RevealOnScroll>
             <div className="text-center z-10 px-4">
                 <a href="#about">
-                    <img src="src/images/main_image.jpg" alt="Dongkun Lee" className="mx-auto mb-4 w-40 h-40 md:w-40 md:h-40 rounded-full object-cover shadow-lg"/>
+                    <img src={mainImage} alt="Dongkun Lee" className="mx-auto mb-4 w-40 h-40 md:w-40 md:h-40 rounded-full object-cover shadow-lg"/>
                 </a>
 
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-right">
