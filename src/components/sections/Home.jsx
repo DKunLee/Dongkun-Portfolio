@@ -14,7 +14,7 @@ export const Home = () => {
                 </h1>
 
                 <p className="text-gray-300 text-lg mb-8 mx-auto">
-                    Data Science Student | ML Researcher | Software Engineer
+                    Software Engineer | ML Researcher | Data Scientist | Data Engineer
                 </p>
 
                 <div className="flex justify-center space-x-4">

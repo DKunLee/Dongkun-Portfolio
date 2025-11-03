@@ -10,6 +10,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
 
             <a href="#home" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-trandform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-0"}`}>Home</a>
             <a href="#about" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-trandform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-0"}`}>About</a>
+            <a href="#experiences" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-trandform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-0"}`}>Experiences</a>
             <a href="#projects" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-trandform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-0"}`}> Projects</a>
             <a href="#contact" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transform transition-trandform duration-300 ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-0"}`}>Contact</a>
         </div>
