@@ -14,7 +14,7 @@ export const Home = () => {
                 </h1>
 
                 <p className="text-gray-300 text-lg mb-8 mx-auto">
-                    Aspiring Software Engineer, Data Scientist/Engineer, and AI/ML Engineer
+                    Data Science Student | ML Researcher | Software Engineer
                 </p>
 
                 <div className="flex justify-center space-x-4">
